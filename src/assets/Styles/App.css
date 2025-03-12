@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #b8860b;
+    background-color: #3e6623;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .game-container {
+    /* margin: 20px; */
+    background-color: #3e6623;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    /* grid-template-columns: 100px; */
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .scoreboard {
+    font-size: 20px;
+    /* margin: 10px; */
+  }
+  

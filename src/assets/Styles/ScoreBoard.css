@@ -1,0 +1,8 @@
+.scoreboard {
+    position: absolute;   /* Position relative to the nearest positioned ancestor (like `.app`) */
+    top: 10px;            /* Distance from the top */
+    right: 20px;          /* Distance from the right */
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
